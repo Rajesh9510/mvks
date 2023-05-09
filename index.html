@@ -20,7 +20,7 @@
             <p class="pl-20 text-2xl font-bold"><a href="#">MVK<span> Projects</span></a></p>
             <ul class="flex flex-wrap justify-between w-[65%] pl-64 font-semibold text-lg hover:cursor-pointer">
                 <li ><a href="#"></a>Home</li>
-                <li><a href="#"></a>AboutUs</li>
+                <li><a href="#aboutUs"></a>AboutUs</li>
                 <li><a href="#"></a>Projects</li>
                 <li><a href="#"></a>OurTeam</li>
                 <li><a href="#"></a>Contact</li>
@@ -28,7 +28,7 @@
         </div>
 
         <div class="slider px-10 h-[100%] ">
-            <video class="rounded-sm" autoplay loop >
+            <video class="rounded-sm" autoplay muted>
                 <source src="images/video2.mp4 " type="video/mp4">
             </video>
         </div> 
@@ -71,7 +71,7 @@
         </div>
 
     <div class="about p-16 px-10">
-        <h2 class="text-6xl text-center ">AboutUs</h2>
+        <h2 class="text-6xl text-center " id="aboutUs">AboutUs</h2>
         <p class="pt-10">Mvk Projects Private Limited is a Private incorporated on 08 October 2021. It is classified as Non-govt company and is registered at Registrar of Companies, Ahmedabad. Its authorized share capital is Rs. 100,000 and its paid up capital is Rs. 100,000. It is inolved in Building of complete constructions or parts thereof; civil engineering
         </p>
         <p class="pt-6">
@@ -115,5 +115,7 @@
     </div>
     </div>
 </body>
-
+<script>
+    document.getElementsByClassName('autoplay').play();
+</script>
 </html>
